@@ -119,6 +119,7 @@ Liaison de la BDD avec le code :
 On insère dans le morceau de code CREATE le nom de la bdd et collection e également la clé de connexion principale.
 ![image](https://github.com/faycalzaazoua/azureDoc/assets/83638729/3d5807e0-844c-4a62-b73d-80ecaae25439)
 
+Voici une étape nécessaire à la réalisation du projet, à travers cette dernière nous avons pu créer une fonction qui nous permet de créer une donnée comme souhaité par le client (sondage).
 
 Test :
 Par la suite nous pouvons essayez d’ajouter un champ en base afin de vérifier que les données saisi seront bien stockés
