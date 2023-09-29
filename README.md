@@ -74,6 +74,8 @@ Si le client à déjà une infrastructure en place, nous assurons la migration p
 
 
 FONCTION
+
+
 Création du groupe de ressource :
 Ce groupe de ressource nous permettra d’accueillir, comme son nom l’indique, de la ressource tel qu’une machine virtuelle, une application de fonction, etc.
 
