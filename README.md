@@ -1,4 +1,3 @@
-<img width="482" alt="image" src="https://github.com/faycalzaazoua/azureDoc/assets/83638729/53ba4dbe-2bd5-4910-b6da-f0250ea422ba">CUSTOMER SCENARIO
 
 Contexte :
 
@@ -78,24 +77,51 @@ FONCTION
 Création du groupe de ressource :
 Ce groupe de ressource nous permettra d’accueillir, comme son nom l’indique, de la ressource tel qu’une machine virtuelle, une application de fonction, etc.
 
-<img width="482" alt="image" src="https://github.com/faycalzaazoua/azureDoc/assets/83638729/063fcf9f-dc77-4360-a224-ba847a40606e">
+<img width="482" alt="image" src="https://github.com/faycalzaazoua/azureDoc/assets/83638729/af3d66ab-aa82-41ae-a8fd-0d66d9f521f5">
 
 
 Création d’une application de fonction :
 
 Cette application de fonction va nous permettre de créer des fonctions afin de le injecter du code à tester par la suite.
 Le groupe de fonction doit être spécifié par un langage (python, nodeJS, etc.), dans notre cas nous utiliserons une application de fonction en python.
+
+<img width="482" alt="image" src="https://github.com/faycalzaazoua/azureDoc/assets/83638729/77f51cb3-8a91-484e-b804-b047d7382c59">
+
+
 Créer une fonction :
 Création de la fonction dans laquelle nous allons déposer notre code python pour ajouter un champ en base de donnée. (CRUD)
 
+![image](https://github.com/faycalzaazoua/azureDoc/assets/83638729/e4862e1b-c422-4a45-a47a-4b9064eef864)
+
+
+
+
 Dépôt du code dans la fonction :
+![image](https://github.com/faycalzaazoua/azureDoc/assets/83638729/9f28e144-dc78-41d6-a3d7-c3307151e466)
+
+
+
+
 Création du groupe base de données :
 Création de Service de base de données entièrement managé destiné aux applications pour MongoDB. Puis on récupère la clé de connexion principal afin de l’utiliser dans le code python dans notre fonction crée précédemment.
+![image](https://github.com/faycalzaazoua/azureDoc/assets/83638729/ce662fa1-d580-4d2f-b31f-96ac560db0a6)
+
+
 
 Par la suite on créer la BDD : 
 On lui donne un nom et un id de collection.
+
+![image](https://github.com/faycalzaazoua/azureDoc/assets/83638729/7f7b88d6-1ed9-4aca-9578-aeab111e411a)
+
+
+
 Liaison de la BDD avec le code :
 On insère dans le morceau de code CREATE le nom de la bdd et collection e également la clé de connexion principale.
+![image](https://github.com/faycalzaazoua/azureDoc/assets/83638729/3d5807e0-844c-4a62-b73d-80ecaae25439)
+
 
 Test :
 Par la suite nous pouvons essayez d’ajouter un champ en base afin de vérifier que les données saisi seront bien stockés
+
+![image](https://github.com/faycalzaazoua/azureDoc/assets/83638729/070e4034-76e2-4e92-a3d9-7f9b5e709ef4)
+
